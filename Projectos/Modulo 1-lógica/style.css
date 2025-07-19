@@ -1,0 +1,23 @@
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+ }
+ input, select, button {
+    margin: 5px; 
+    padding: 8px; 
+ }
+ table{
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px;
+ }
+ th, td{
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    text-align: center;
+ }
+    th { 
+        background-color: #f4f4f4; 
+       }
+ 

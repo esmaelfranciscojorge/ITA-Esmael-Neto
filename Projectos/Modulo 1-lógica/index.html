@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <h1>Sistema de Cadastro de Alunos</h1>
+  <form id="formAluno">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="number" id="idade" placeholder="Idade" required>
+    <select id="genero">
+      <option value="M">Masculino</option>
+      <option value="F">Feminino</option>
+    </select>
+    <input type="number" id="nota1" placeholder="Nota 1" step="0.1" required>
+    <input type="number" id="nota2" placeholder="Nota 2" step="0.1" required>
+    <button type="submit">Cadastrar</button>
+  </form><button onclick="ordenarPorNome()">Ordenar por Nome</button> <button onclick="ordenarPorMedia()">Ordenar por Média</button>
+
+  <div id="relatorios"></div>  <table id="tabelaAlunos">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Gênero</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Média</th>
+        <th>Situação</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
