@@ -1,0 +1,48 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .curriculo {
+      background: #fff;
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .foto {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .foto img {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    .info-pessoal, .formacao, .experiencia, .contato {
+      margin-bottom: 25px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .curriculo {
+        padding: 15px;
+      }
+
+      .foto img {
+        width: 90px;
+      }
+    }
+  
